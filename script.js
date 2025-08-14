@@ -41,6 +41,10 @@ function playRound(humanChoice, computerChoice) {
   humanscore++;
    
     }
+    else if (humanChoice!=="rock"||humanChoice!=="paper"||humanChoice!=="scissors"){
+        console.log("Invalid choice bhoosri ky!");
+
+    }
     else {
  console.log("Computer Won");
  computerscore++;
